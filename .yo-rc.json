@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "ita-mega-menu",
+    "libraryId": "205cc9d0-f55b-4f34-b26b-a546c6f9d762",
+    "environment": "spo"
+  }
+}

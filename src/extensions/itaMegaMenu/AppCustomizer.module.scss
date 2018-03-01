@@ -1,0 +1,81 @@
+.app {
+    .top {
+        height:60px;
+        text-align:center;
+        line-height:2.5;
+        font-weight:bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom {
+        height:40px;
+        text-align:center;
+        line-height:2.5;
+        font-weight:bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.globalmenu
+{
+    height: 60px;
+    position: relative;
+    .toplevelmenuitem
+    {
+        background-color:none;
+        color:#fff;
+        padding: 0px 10px;
+        border:0px solid #cccc;
+        margin:15px 5px 0px 5px;
+        float: left;
+        display: block;   
+        ::after{content:"|"; padding-left: 8px;}     
+        a 
+        {
+            color:#fff !important;
+            line-height: 30px;
+        }
+    }
+    .flyoutdiv
+    {
+        position: absolute;
+        top:60px;
+        left:0px;                
+        width: 100%;
+        display: block;
+        padding: 10px;
+        z-index: 1000;
+        min-height: 350px;
+        .navigationsectionbox
+        {
+            border-right: 1px solid #cccc;
+            margin:0px;
+            width:auto;
+            height: auto;
+            min-height: 350px;
+            display: block;
+            float: left;
+            padding: 10px;
+            div
+            {
+                display: block;
+                /*padding: 5px 150px 5px 10px;*/
+                margin:10px 0px;
+                background-color: cadetblue;
+                border: 1px solid #fff;
+                line-height: 25px;
+                color:#fff;
+                border-bottom: 1px solid #cccc;
+                a{
+                    color:#fff;
+                    display: inline-block;
+                    min-width: 150px;
+                    text-indent: 5px;
+                }
+            }
+        }
+    }
+}

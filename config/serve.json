@@ -1,0 +1,29 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://boraakkaya.sharepoint.com/SitePages/Dummy.aspx",
+      "customActions": {
+        "7f01f800-5b54-4572-9fcd-9f138f4a6a6e": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "itaMegaMenu": {
+      "pageUrl": "https://boraakkaya.sharepoint.com/SitePages/Dummy.aspx",
+      "customActions": {
+        "7f01f800-5b54-4572-9fcd-9f138f4a6a6e": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
