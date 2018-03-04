@@ -13,9 +13,8 @@ export default class GlobalMenu extends React.Component<GlobalMenuProps, any> {
     this.navigationItems = require ('./../data/mockTaxonomy.json');
   }
   render() {
-    console.log("Navigation Items ",this.navigationItems);    
     return (<div className={`ms-bgColor-themeDark ${styles.globalmenu}`}>      
-          <TopLevelMenu items={this.navigationItems.navigation} />
+          <TopLevelMenu items={this.navigationItems.navigation} statics = {this.navigationItems.staticLinks}/>
       </div>
     );
   }  

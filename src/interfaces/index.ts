@@ -1,6 +1,7 @@
 export interface INavigation
 {
-    navigation:INavigationItem[]
+    navigation:INavigationItem[],
+    staticLinks:IStaticLinks[]
 }
 export interface INavigationItem
 {
@@ -10,4 +11,15 @@ export interface INavigationItem
     target:string,
     visible:boolean,
     children?:INavigationItem[]
+}
+export interface IStaticLinkHeading
+{
+    title:string,
+    links:INavigationItem[]
+}
+export interface IStaticLinks
+{
+    owner:string,
+    headings:IStaticLinkHeading[]
+
 }

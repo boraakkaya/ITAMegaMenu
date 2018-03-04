@@ -47,20 +47,19 @@ export default class ItaMegaMenuApplicationCustomizer
     console.log('HelloWorldApplicationCustomizer._renderPlaceHolders()');
     console.log('Available placeholders: ',
       this.context.placeholderProvider.placeholderNames.map(name => PlaceholderName[name]).join(', '));
-
+ 
     // Handling the top placeholder
     if (!this._topPlaceholder) {
-      this._topPlaceholder =
+      this._topPlaceholder = 
         this.context.placeholderProvider.tryCreateContent(
           PlaceholderName.Top,
           { onDispose: this._onDispose });
-
+  
       // The extension should not assume that the expected placeholder is available.
       if (!this._topPlaceholder) {
         console.error('The expected placeholder (Top) was not found.');   
-        return;
+        return;  
       }
- 
       if (this.properties) {
         let topString: string = this.properties.Top; 
         if (!topString) {

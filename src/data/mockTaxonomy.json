@@ -1,62 +1,540 @@
 {
-  "navigation":[
-      {"title":"Portal Home","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-      {"title":"Mission","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank", "children":[
-        {"title":"Mission 1","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank","children":[
-                {"title":"Mission 1.1","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 2.2","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 1.3","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 1.4","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 1.5","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 1.6","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 1.7","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 1.8","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"}
-        ]},
-        {"title":"Mission 2","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank","children":[
-            {"title":"Mission 2.1","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-            {"title":"Mission 2.2","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-            {"title":"Mission 2.3","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-            {"title":"Mission 2.4","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-            {"title":"Mission 2.5","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank", "children":[
-                {"title":"Mission 2.5.1","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 2.5.2","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 2.5.3","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Mission 2.5.4","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"}
-            ]},
-            {"title":"Mission 2.6","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"}
-        ]},
-        {"title":"Mission 3","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-        {"title":"Mission 4","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"}
-      ]
-    
-    },
-      {"title":"About Us","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-      {"title":"Departments","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank",
-        "children":[
-            {"title":"Department 1","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank","children":[
-                {"title":"Department 1.1","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank","children":[
-                    {"title":"Department 1.1.1","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                    {"title":"Department 1.1.2","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                    {"title":"Department 1.1.3","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                    {"title":"Department 1.1.4","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"}
-                ]},
-                {"title":"Department 1.2","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank","children":[
-                    {"title":"Department 1.2.1","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                    {"title":"Department 1.2.2","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"}
-                    
-                ]},
-                {"title":"Department 1.3","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Department 1.4","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"}  
-            ]},
-            {"title":"Department 2","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank","children":[
-                {"title":"Department 2.1","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Department 2.2","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-                {"title":"Department 2.3","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"}
-            ]},
-            {"title":"Department 3","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-            {"title":"Department 4","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"},
-            {"title":"Department 5","link":"https://boraakkaya.onmicrosoft.com","description" : "","visible": true,"target": "_blank"}
-        ]
-    }
-]
+    "navigation": [
+        {
+            "title": "Portal Home",
+            "link": "https://boraakkaya.onmicrosoft.com",
+            "description": "",
+            "visible": true,
+            "target": "_blank"
+        },
+        {
+            "title": "About ITA",
+            "link": "https://boraakkaya.onmicrosoft.com",
+            "description": "",
+            "visible": true,
+            "target": "_blank"
+        },
+        {
+            "title": "Trade Topics",
+            "link": "https://boraakkaya.onmicrosoft.com",
+            "description": "",
+            "visible": true,
+            "target": "_blank",
+            "children": [
+                {
+                    "title": "Civil Nuclear",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank",
+                    "children": [
+                        {
+                            "title": "Competitiveness",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Foreign Direct Investment",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Foreign Trade Zones",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Intellectual Property Rights",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Tariffs",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Trade Events",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Trade Policy",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Trade Remedies",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "Basic Guide to Exporting",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank",
+                    "children": [
+                        {
+                            "title": "Top Markets Series",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Trade Finance Guide",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "International Trade Update",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Advisory Committees",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Good Governance",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank",
+                            "children": [
+                                {
+                                    "title": "Civil Nuclear Trade Initiative",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "SelectUSA",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "Market Development Cooperator Program",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "North American Commercial Platform",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "SABIT",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "Privacy Shield",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank"
+                },
+                {
+                    "title": "StopFakes",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank"
+                }
+            ]
+        },        
+        {
+            "title": "Departments",
+            "link": "https://boraakkaya.onmicrosoft.com",
+            "description": "",
+            "visible": true,
+            "target": "_blank",
+            "children": [
+                {
+                    "title": "Strategic Partnership Program",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank",
+                    "children": [
+                        {
+                            "title": "Industries",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank",
+                            "children": [
+                                {
+                                    "title": "Aerospace",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "Automotive",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "Building Products",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "Chemicals",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Construction",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank",
+                            "children": [
+                                {
+                                    "title": "Consumer Goods",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "E-Commerce",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Energy",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Environmental Industries",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "Financial Services",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank",
+                    "children": [
+                        {
+                            "title": "Health",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Information and Telecom",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Machinery",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "Business Units",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank"
+                },
+                {
+                    "title": "Global Markets",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank"
+                },
+                {
+                    "title": "Industry and Analysis",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank"
+                }
+            ]
+        }
+    ],
+    "staticLinks": [
+        {
+            "owner": "Departments",
+            "headings": [
+                {
+                    "title": "Enforcement and Compliance",
+                    "links": [
+                        {
+                            "title": "Office of the Under Secretary",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Office of  Legislative and Affairs",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Office of Public Affairs",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "About Trade",
+                    "links": [
+                        {
+                            "title": "Civil Nuclear",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Competitiveness",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Foreign Direct Investment",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Foreign Trade Zones",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Intellectual Property Rights",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "Standards",
+                    "links": [
+                        {
+                            "title": "Steel",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Tariffs",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Trade Barriers",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Trade Events",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "owner": "Trade Topics",
+            "headings": [
+                {
+                    "title": "Services",
+                    "links": [
+                        {
+                            "title": "AD/CVD Counseling",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Advocacy",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Export Counseling",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "Gold Key Matching",
+                    "links": [
+                        {
+                            "title": "International Buyer Program",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "International Company Profile",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "International Partner Search",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Market Research",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Platinum Key",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "Resources",
+                    "links": [
+                        {
+                            "title": "Report a Trade Barrier",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Privacy Shield Certification",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Steel Import Licensing",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Trade Complaint Filing",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

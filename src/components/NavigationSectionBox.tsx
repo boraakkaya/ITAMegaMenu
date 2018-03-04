@@ -22,12 +22,18 @@ export default class NavigationSectionBox extends React.Component<NavigationSect
         });
     }
     render() {
+        console.log("dasdasd", (window as any).navBoxWidth)
         var that = this;
         return (
-            <div>
-            <div className={`${styles.navigationsectionbox}`}>
+            <div style={{position:"relative",zIndex:1002, float:"left"}}>
+            <div className={`${styles.navigationsectionbox}`} style={{width:(window as any).navBoxWidth+"px"}}>
                 {this.props.items.map((item: INavigationItem, index) => {
-                    return <div onMouseOver={() => { this.handleMouseOver(item) }} onMouseMove={() => { this.handleMouseOver(item) }} onMouseOut={() => { this.handleMouseOut }}><a href={item.link} onMouseOver={()=>{this.handleMouseOver(item)}} onMouseOut={()=>{this.handleMouseOut}}>{item.title}</a></div>
+                    return <div onMouseOver={() => { this.handleMouseOver(item) }} onMouseMove={() => { this.handleMouseOver(item) }} onMouseOut={() => { this.handleMouseOut }}><a href={item.link} onMouseOver={()=>{this.handleMouseOver(item)}} onMouseOut={()=>{this.handleMouseOut}}>{item.title}
+                    {item.children ? <div>
+                        <i className={`ms-Icon ms-Icon--TriangleSolid`} style={{transform:"rotate(90deg)",fontSize:"6px"}} />
+                    </div> : ""}
+                                       
+                    </a></div>
                 })}                
             </div>            
             {that._children && <NavigationSectionBox items={that._children} />}
@@ -35,15 +41,13 @@ export default class NavigationSectionBox extends React.Component<NavigationSect
         );
     }
     @autobind
-    handleMouseOver(item:INavigationItem) {
-        console.log("On Mouse Over");
+    handleMouseOver(item:INavigationItem) {        
         this.setState({ selectedNavigationItem: item },()=>{
             this._children = item.children ? item.children : undefined;
         })
     }
     @autobind
-    handleMouseOut() {
-        console.log("On Mouse Out");
+    handleMouseOut() {        
         this.setState({ selectedNavigationItem: undefined },()=>{
             this._children = undefined;
         });
