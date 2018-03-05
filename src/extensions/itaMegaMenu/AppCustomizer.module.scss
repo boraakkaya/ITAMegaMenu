@@ -61,6 +61,7 @@
         z-index: 1000;
         min-height: 350px;        
         background-color: #fff;
+        height: 403px;
         *>h3
         {            
             font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +69,7 @@
             text-decoration: none;
             color: #fff;
             font-weight: 500;
-            background-color:rgba(0,0,0,.5);
+            background-color:rgba(0,0,0,.4);
             line-height: 40px;
             border-radius: 0px;
             margin:0px 0px;
@@ -85,7 +86,8 @@
         {            
             margin:0px;
             /*width:365px;*/
-            height: auto;
+            height: 360px;
+            //height: auto;
             min-height: 310px;
             display: block;
             float: left;
@@ -113,7 +115,7 @@
                     }                    
                 }                
             }
-            div:hover
+            >div:hover
             {
                 background-color: rgba($color: #3a3a3a, $alpha: .5)
             }
@@ -123,13 +125,15 @@
             position: relative;
             /*left: 385px;*/
             float: left;
+            height: 402px;
             .staticsection
             {
                 float:left;
                 //width: 375px;
                 min-height: 350px;
                 border: 1px solid #cccc;
-                margin: 0px 0px 0px 10px;                             
+                margin: 0px 0px 0px 10px; 
+                height: 100%;                            
                 div
                 {
                     margin:0px;

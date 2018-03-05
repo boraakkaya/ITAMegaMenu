@@ -21,8 +21,7 @@ export default class NavigationSectionBox extends React.Component<NavigationSect
             this._children = undefined;
         });
     }
-    render() {
-        console.log("dasdasd", (window as any).navBoxWidth)
+    render() {        
         var that = this;
         return (
             <div style={{position:"relative",zIndex:1002, float:"left"}}>

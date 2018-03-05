@@ -184,49 +184,84 @@
             ]
         },        
         {
-            "title": "Departments",
+            "title": "ITA Offices",
             "link": "https://boraakkaya.onmicrosoft.com",
             "description": "",
             "visible": true,
             "target": "_blank",
             "children": [
                 {
-                    "title": "Strategic Partnership Program",
+                    "title": "Chief Financial and Administrative Officer",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank"                    
+                },
+                {
+                    "title": "Enforcement & Compliance",
                     "link": "https://boraakkaya.onmicrosoft.com",
                     "description": "",
                     "visible": true,
                     "target": "_blank",
                     "children": [
                         {
-                            "title": "Industries",
+                            "title": "ADCVD Operations",
                             "link": "https://boraakkaya.onmicrosoft.com",
                             "description": "",
                             "visible": true,
                             "target": "_blank",
-                            "children": [
+                            "children":[
                                 {
-                                    "title": "Aerospace",
+                                    "title": "ADCVD Office I",
                                     "link": "https://boraakkaya.onmicrosoft.com",
                                     "description": "",
                                     "visible": true,
                                     "target": "_blank"
                                 },
                                 {
-                                    "title": "Automotive",
+                                    "title": "ADCVD Office II",
                                     "link": "https://boraakkaya.onmicrosoft.com",
                                     "description": "",
                                     "visible": true,
                                     "target": "_blank"
                                 },
                                 {
-                                    "title": "Building Products",
+                                    "title": "ADCVD Office III",
                                     "link": "https://boraakkaya.onmicrosoft.com",
                                     "description": "",
                                     "visible": true,
                                     "target": "_blank"
                                 },
                                 {
-                                    "title": "Chemicals",
+                                    "title": "ADCVD Office IV",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "ADCVD Office V",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "ADCVD Office VI",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "ADCVD Training and Professional Development Unit",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "Customs Liaison Unit",
                                     "link": "https://boraakkaya.onmicrosoft.com",
                                     "description": "",
                                     "visible": true,
@@ -235,80 +270,83 @@
                             ]
                         },
                         {
-                            "title": "Construction",
-                            "link": "https://boraakkaya.onmicrosoft.com",
-                            "description": "",
-                            "visible": true,
-                            "target": "_blank",
-                            "children": [
-                                {
-                                    "title": "Consumer Goods",
-                                    "link": "https://boraakkaya.onmicrosoft.com",
-                                    "description": "",
-                                    "visible": true,
-                                    "target": "_blank"
-                                },
-                                {
-                                    "title": "E-Commerce",
-                                    "link": "https://boraakkaya.onmicrosoft.com",
-                                    "description": "",
-                                    "visible": true,
-                                    "target": "_blank"
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Energy",
+                            "title": "Chief Counsel for Trade Enforcement & Compliance",
                             "link": "https://boraakkaya.onmicrosoft.com",
                             "description": "",
                             "visible": true,
                             "target": "_blank"
                         },
                         {
-                            "title": "Environmental Industries",
+                            "title": "E&C Beijing Field Office",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "E&C Free Trade Zone",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "E&C Office of Accounting",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "E&C Office of Operations Support",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "E&C Office of Policy",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "E&C Trade Agreements, Negotiations, and Compliance",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Office of the Assistant Secretary for E&C",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Office of the DAS for ADCVD Operations",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Office of the DAS for Policy & Negotiations",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Office of the Deputy Assistant Secretary for E&C",
                             "link": "https://boraakkaya.onmicrosoft.com",
                             "description": "",
                             "visible": true,
                             "target": "_blank"
                         }
                     ]
-                },
-                {
-                    "title": "Financial Services",
-                    "link": "https://boraakkaya.onmicrosoft.com",
-                    "description": "",
-                    "visible": true,
-                    "target": "_blank",
-                    "children": [
-                        {
-                            "title": "Health",
-                            "link": "https://boraakkaya.onmicrosoft.com",
-                            "description": "",
-                            "visible": true,
-                            "target": "_blank"
-                        },
-                        {
-                            "title": "Information and Telecom",
-                            "link": "https://boraakkaya.onmicrosoft.com",
-                            "description": "",
-                            "visible": true,
-                            "target": "_blank"
-                        },
-                        {
-                            "title": "Machinery",
-                            "link": "https://boraakkaya.onmicrosoft.com",
-                            "description": "",
-                            "visible": true,
-                            "target": "_blank"
-                        }
-                    ]
-                },
-                {
-                    "title": "Business Units",
-                    "link": "https://boraakkaya.onmicrosoft.com",
-                    "description": "",
-                    "visible": true,
-                    "target": "_blank"
                 },
                 {
                     "title": "Global Markets",
@@ -323,33 +361,111 @@
                     "description": "",
                     "visible": true,
                     "target": "_blank"
-                }
-            ]
-        }
-    ],
-    "staticLinks": [
-        {
-            "owner": "Departments",
-            "headings": [
+                },
                 {
-                    "title": "Enforcement and Compliance",
-                    "links": [
+                    "title": "Office Of the Chief Information Officer",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank",
+                    "children":[
                         {
-                            "title": "Office of the Under Secretary",
+                            "title": "Architecture, Strategy and Design",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank",
+                            "children" : [
+                                {
+                                    "title": "Enterprise Architecture",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "Strategy",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "Technical Architecture and Standards",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Customer Service",
                             "link": "https://boraakkaya.onmicrosoft.com",
                             "description": "",
                             "visible": true,
                             "target": "_blank"
                         },
                         {
-                            "title": "Office of  Legislative and Affairs",
+                            "title": "Cyber Security Operations",
                             "link": "https://boraakkaya.onmicrosoft.com",
                             "description": "",
                             "visible": true,
                             "target": "_blank"
                         },
                         {
-                            "title": "Office of Public Affairs",
+                            "title": "Finance and Administration",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Office of the CIO and Deputy CIO",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Product Delivery",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank",
+                            "children" : [
+                                {
+                                    "title": "Customer Relationship Management",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "Other Products",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "Product and Service Delivery Platform",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                },
+                                {
+                                    "title": "System Operations",
+                                    "link": "https://boraakkaya.onmicrosoft.com",
+                                    "description": "",
+                                    "visible": true,
+                                    "target": "_blank"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "System Operations",
                             "link": "https://boraakkaya.onmicrosoft.com",
                             "description": "",
                             "visible": true,
@@ -358,17 +474,106 @@
                     ]
                 },
                 {
-                    "title": "About Trade",
+                    "title": "Office of Under Secretary",
+                    "link": "https://boraakkaya.onmicrosoft.com",
+                    "description": "",
+                    "visible": true,
+                    "target": "_blank"
+                }
+            ]
+        }
+    ],
+    "staticLinks": [
+        {
+            "owner": "ITA Offices",
+            "headings": [
+                {
+                    "title": "Teams",
                     "links": [
                         {
-                            "title": "Civil Nuclear",
+                            "title": "Argentina Team Site",
                             "link": "https://boraakkaya.onmicrosoft.com",
                             "description": "",
                             "visible": true,
                             "target": "_blank"
                         },
                         {
-                            "title": "Competitiveness",
+                            "title": "Be-the-Change Group",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Brazil Aerospace Mission",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Brazil Commercial Dialogue",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Common Data Platform (CDP)",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Chile RE&EE Trade Policy Mission",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Chile RE&EE Trade Policy Mission",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "CTS",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Department of Commerce - CRM",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "International Standards Team",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "OCIO",
+                    "links": [
+                        {
+                            "title": "Self Service",
+                            "link": "https://boraakkaya.onmicrosoft.com",
+                            "description": "",
+                            "visible": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "title": "Ticketing",
                             "link": "https://boraakkaya.onmicrosoft.com",
                             "description": "",
                             "visible": true,

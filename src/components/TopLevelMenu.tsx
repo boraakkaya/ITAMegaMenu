@@ -34,7 +34,9 @@ export default class TopLevelMenu extends React.Component<TopLevelMenuProps, Top
             <a href={item.link} onMouseOver={()=>{this.handleMouseOver(item)}} onMouseOut={()=>{this.handleMouseOut}}>{item.title}</a>
           </div>
         })}      
-       {that._children && <div className={styles.flyoutwrapper} style={{height:(window.innerHeight-110)+"px"}}> <FlyOutDiv items={that._children} staticChildren={that._staticChildren} heading={that._heading} /></div>}
+       {that._children && <div className={styles.flyoutwrapper} style={{height:(window.innerHeight-110)+"px"}}>
+       <FlyOutDiv items={that._children} staticChildren={that._staticChildren} heading={that._heading} />
+       </div>}
       </div>
     );
   }

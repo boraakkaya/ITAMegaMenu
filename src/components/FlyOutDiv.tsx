@@ -8,22 +8,18 @@ export interface FlyOutDivProps {
     staticChildren:IStaticLinks | any,
     heading:string
 }
-export interface FlyOutDivState
-{
-
-}
+export interface FlyOutDivState{}
 declare var navBoxWidth:number
 export default class FlyOutDiv extends React.Component<FlyOutDivProps, FlyOutDivState> {  
-  render() {
-    
+  render() {    
     (window as any).navBoxWidth = (window.innerWidth -58) / 4;
     return (
       <div className={`${styles.flyoutdiv}`}>
-            <div style={{position:"absolute",zIndex:1002,float:"left",border:"1px solid #cccc", backgroundColor:"#0392cf"}}>
+            <div style={{position:"absolute",zIndex:1004,float:"left",border:"1px solid #cccc", backgroundColor:"#0392cf"}} onMouseLeave={()=>{this.setState(this.state);}}>
             <h3>{this.props.heading}</h3>           
            <NavigationSectionBox items={this.props.items} />
            </div>
-          {this.props.staticChildren && <StaticSectionBox items={this.props.staticChildren} /> }
+          {this.props.staticChildren && <StaticSectionBox handleMouseEnter={(e)=>{this.setState(this.state)}} items={this.props.staticChildren} /> }
       </div>
     );
   }
