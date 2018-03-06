@@ -64,14 +64,14 @@ export default class ItaMegaMenuApplicationCustomizer
         let topString: string = this.properties.Top; 
         if (!topString) {
           topString = '(Top property was not defined.)';
-        } 
+        }  
         if (this._topPlaceholder.domElement) {
         //  this._topPlaceholder.domElement.innerHTML = `
         //<div class="${styles.app}">
         //  <div class="ms-bgColor-themeDark ms-fontColor-white ${styles.top}">
         //    <i class="ms-Icon ms-Icon--Info" aria-hidden="true"></i> ${escape(topString)}
         //  </div>
-        //</div>`;
+        //</div>`; 
         console.log("Rendering...");
         ReactDOM.render(<GlobalMenu />,this._topPlaceholder.domElement);   
         }

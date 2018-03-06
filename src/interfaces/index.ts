@@ -1,25 +1,25 @@
 export interface INavigation
 {
-    navigation:INavigationItem[],
-    staticLinks:IStaticLinks[]
+    navigation:INavigationItem[];
+    staticLinks:IStaticLinks[];
 }
 export interface INavigationItem
 {
-    title:string,
-    link:string,
-    description:string,
-    target:string,
-    visible:boolean,
-    children?:INavigationItem[]
+    title:string;
+    link:string;
+    description:string;
+    target:string;
+    visible:boolean;
+    children?:INavigationItem[];
 }
 export interface IStaticLinkHeading
 {
-    title:string,
-    links:INavigationItem[]
+    title:string;
+    links:INavigationItem[];
 }
 export interface IStaticLinks
 {
-    owner:string,
-    headings:IStaticLinkHeading[]
+    owner:string;
+    headings:IStaticLinkHeading[];
 
 }
