@@ -28,14 +28,14 @@ export default class NavigationSectionBox extends React.Component<NavigationSect
             <div className={`${styles.navigationsectionbox}`} style={{width:(window as any).navBoxWidth+"px"}}>
                 {this.props.items.map((item: INavigationItem, index) => {
                     return <div onMouseOver={() => { this.handleMouseOver(item); }} onMouseMove={() => { this.handleMouseOver(item); }} onMouseOut={() => { this.handleMouseOut(); }}><a href={item.link} onMouseOver={()=>{this.handleMouseOver(item);}} onMouseOut={()=>{this.handleMouseOut();}}>{item.title}
-                    {item.children ? <div>
+                    {item.children && item.children.length >0  ? <div>
                         <i className={`ms-Icon ms-Icon--TriangleSolid`} style={{transform:"rotate(90deg)",fontSize:"6px"}} />
                     </div> : ""}
                                        
                     </a></div>;
                 })}                
             </div>            
-            {that._children && <NavigationSectionBox items={that._children} />}
+            {that._children && that._children.length > 0 && <NavigationSectionBox items={that._children} />}
         </div>
         );
     }

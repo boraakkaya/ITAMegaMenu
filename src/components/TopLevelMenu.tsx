@@ -37,7 +37,7 @@ export default class TopLevelMenu extends React.Component<TopLevelMenuProps, Top
 
 
         
-       {that._children && <div className={styles.flyoutwrapper} style={{height:(window.innerHeight-110)+"px"}} data-is-parent  
+       {that._children && that._children.length > 0 && <div className={styles.flyoutwrapper} style={{height:(window.innerHeight-110)+"px"}} data-is-parent  
        onClick ={(e)=>{this.handleWrapperClick(e);}}
        >         
         <FlyOutDiv items={that._children} staticChildren={that._staticChildren} heading={that._heading} />

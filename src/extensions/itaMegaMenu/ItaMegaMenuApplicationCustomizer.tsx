@@ -14,6 +14,8 @@ const LOG_SOURCE: string = 'ItaMegaMenuApplicationCustomizer';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import GlobalMenu from './../../components/GlobalMenu'; 
+import { INavigation } from '../../interfaces';
+import {HttpClient} from '@microsoft/sp-http';
 /**
  * If your command set uses the ClientSideComponentProperties JSON input,
  * it will be deserialized into the BaseExtension.properties object.
@@ -24,6 +26,7 @@ export interface IItaMegaMenuApplicationCustomizerProperties {
   testMessage: string;
   Top: string;
   Bottom: string;
+  NavigationItems : INavigation | {}
 }
 /** A Custom Action which can be run during execution of a Client Side Application */
 export default class ItaMegaMenuApplicationCustomizer
@@ -35,13 +38,40 @@ export default class ItaMegaMenuApplicationCustomizer
   public onInit(): Promise<void> {
     this.properties.Bottom = "Bottom Property";
     this.properties.Top = "Top Property";
-    Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
-    // Added to handle possible changes on the existence of placeholders.
-    this.context.placeholderProvider.changedEvent.add(this, this._renderPlaceHolders);
-    // Call render method for generating the HTML elements.
-    this._renderPlaceHolders();
+    this.getNavigationItems().then((items)=>{
+      console.log("Returned Promise Result",items);
+      this.properties.NavigationItems = items;
+      Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
+      // Added to handle possible changes on the existence of placeholders.
+      this.context.placeholderProvider.changedEvent.add(this, this._renderPlaceHolders);
+      // Call render method for generating the HTML elements.
+      this._renderPlaceHolders();
+      
+
+
+    }).catch((err)=>{
+      console.log("Error on Promise ", err);
+
+    });
     return Promise.resolve<void>();
   }
+
+  async getNavigationItems():Promise<INavigation | {}>
+  {
+    let navigationItems={}
+
+    await this.context.httpClient.get("https://itauserprofilemanager.azurewebsites.net/api/GetNavigation",HttpClient.configurations.v1,{}).then(async(response)=>{
+      await response.json().then((result)=>{
+        console.log("Nav Data : ", result);
+        navigationItems = result;
+      }).catch((err)=>{
+        console.log("Error on Promise Call ", err);
+  
+      });
+    })    
+    return navigationItems;
+  }
+
   private _renderPlaceHolders(): void {
 
     console.log('HelloWorldApplicationCustomizer._renderPlaceHolders()');
@@ -73,7 +103,7 @@ export default class ItaMegaMenuApplicationCustomizer
         //  </div>
         //</div>`; 
         console.log("Rendering...");
-        ReactDOM.render(<GlobalMenu />,this._topPlaceholder.domElement);   
+        ReactDOM.render(<GlobalMenu navigationItems={this.properties.NavigationItems} />,this._topPlaceholder.domElement);   
         }
       }
     }
